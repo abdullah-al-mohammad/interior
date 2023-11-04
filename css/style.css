@@ -1,16 +1,47 @@
+body{
+    font-family: 'DM Serif Display', serif; 
+}
+
+
+/* nav */
+
 .nav-link.disabled, .nav-link:disabled {
     color: black !important;
 }
 
+
+/* home section */
+
 #home .btn{
-    border: none;
+    border: none; 
+    padding: 15px 25px 15px 25px;
+    border-radius: 18px;
 }
 #home .btn-primary {
     background-color:#292F36;
     color: white;
 }
 #home .home-unique{
-    top: o;
+    top: 0px;
     bottom: 50px;
+    transform: translate(0, 50%);
     font-family: 'DM Serif Display', serif;
+}
+@media screen and (min-width:280px) and (max-width: 570px) {
+    #home .home-unique{
+        top: 0px;
+        bottom: 50px;
+        transform: translate(0, 20%);
+        font-family: 'DM Serif Display', serif;
+    }
+    
+}
+@media screen and (min-width: 571px) and (max-width: 690px) {
+    #home .home-unique{
+        top: 0px;
+        bottom: 50px;
+        transform: translate(0, 20%);
+        font-family: 'DM Serif Display', serif;
+    }
+    
 }
