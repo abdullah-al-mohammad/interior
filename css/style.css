@@ -1,3 +1,16 @@
 .nav-link.disabled, .nav-link:disabled {
     color: black !important;
 }
+
+#home .btn{
+    border: none;
+}
+#home .btn-primary {
+    background-color:#292F36;
+    color: white;
+}
+#home .home-unique{
+    top: o;
+    bottom: 50px;
+    font-family: 'DM Serif Display', serif;
+}
