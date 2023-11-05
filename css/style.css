@@ -45,8 +45,11 @@ body{
 
 #about-us{
     background-color:#F4F0EC;
-    ;
 }
 #about-us .card{
     border: none;
+}
+
+#about-us .card-body{
+    padding: 0px;
 }
