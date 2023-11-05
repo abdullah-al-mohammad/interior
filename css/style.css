@@ -8,10 +8,6 @@ body{
 .nav-link.disabled, .nav-link:disabled {
     color: black !important;
 }
-
-
-/* home section */
-
 #home .btn{
     border: none; 
     padding: 15px 25px 15px 25px;
@@ -21,26 +17,31 @@ body{
     background-color:#292F36;
     color: white;
 }
+
+
+/* home section */
+
+
 #home .home-unique{
     top: 0px;
     bottom: 50px;
-    transform: translate(0, 50%);
+    transform: translate(50%, 50%);
     font-family: 'DM Serif Display', serif;
 }
-@media screen and (min-width:280px) and (max-width: 570px) {
-    #home .home-unique{
-        top: 0px;
-        bottom: 50px;
-        transform: translate(0, 20%);
-        font-family: 'DM Serif Display', serif;
-    }
-    
+
+/* living */
+.call{
+    background-color: rgb(243, 240, 236);
+    width: 93px;
+    height: 93px;
+    padding: 15px;
 }
-@media screen and (min-width: 571px) and (max-width: 690px) {
+
+@media screen and (max-width:569px) {
     #home .home-unique{
         top: 0px;
         bottom: 50px;
-        transform: translate(0, 20%);
+        transform: translate(20% , 20%);
         font-family: 'DM Serif Display', serif;
     }
     
