@@ -30,12 +30,6 @@ body{
 }
 
 /* living */
-.call{
-    background-color: rgb(243, 240, 236);
-    width: 93px;
-    height: 93px;
-    padding: 15px;
-}
 
 @media screen and (max-width:569px) {
     #home .home-unique{
@@ -45,4 +39,14 @@ body{
         font-family: 'DM Serif Display', serif;
     }
     
+}
+
+/* about us */
+
+#about-us{
+    background-color:#F4F0EC;
+    ;
+}
+#about-us .card{
+    border: none;
 }
