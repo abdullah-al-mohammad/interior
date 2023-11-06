@@ -31,11 +31,11 @@ body{
 
 /* living */
 
-@media screen and (max-width:569px) {
+@media screen and (max-width:575px) {
     #home .home-unique{
         top: 0px;
         bottom: 0px;
-        transform: translate(0% , 0%);
+        transform: translate(10% , 10%);
         font-family: 'DM Serif Display', serif;
     }
     
@@ -52,4 +52,19 @@ body{
 
 #about-us .card-body{
     padding: 0px;
+}
+
+/* our projects */
+
+#our-project .angle-right{
+    background-color: #F4F0EC;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+}
+#our-project .angle{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
