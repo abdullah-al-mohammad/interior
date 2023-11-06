@@ -34,8 +34,8 @@ body{
 @media screen and (max-width:569px) {
     #home .home-unique{
         top: 0px;
-        bottom: 50px;
-        transform: translate(20% , 20%);
+        bottom: 0px;
+        transform: translate(0% , 0%);
         font-family: 'DM Serif Display', serif;
     }
     
@@ -43,7 +43,7 @@ body{
 
 /* about us */
 
-#about-us{
+#about-us .bg-color{
     background-color:#F4F0EC;
 }
 #about-us .card{
