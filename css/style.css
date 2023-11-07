@@ -68,3 +68,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+.middle-border {
+    padding-left: 20px; /* Add padding to center the content */
+  }
+  
