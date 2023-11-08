@@ -73,6 +73,9 @@ body{
 #count-down{
     background: #F4F0EC;
 }
+#count-down p{
+    color: #4D5053;
+}
 
 #count-down .count-color{
     color: #CDA274;
@@ -111,6 +114,7 @@ body{
 
 #company-details ul li{
     list-style: none;
+    color:#4D5053;
 }
 #company-details ul{
     padding-left: 0;
