@@ -2,12 +2,6 @@ body{
     font-family: 'DM Serif Display', serif; 
 }
 
-
-/* nav */
-
-.nav-link.disabled, .nav-link:disabled {
-    color: black !important;
-}
 #home .btn{
     border: none; 
     padding: 15px 25px 15px 25px;
@@ -16,6 +10,12 @@ body{
 #home .btn-primary {
     background-color:#292F36;
     color: white;
+}
+
+/* nav */
+
+.nav-link.disabled, .nav-link:disabled {
+    color: black !important;
 }
 
 
@@ -70,7 +70,40 @@ body{
 }
 
 
-.middle-border {
-    padding-left: 20px; /* Add padding to center the content */
-  }
-  
+/* count down */
+#count-down{
+    background: #F4F0EC;
+}
+
+#count-down .count-color{
+    color: #CDA274;
+
+}
+
+/* Articles & News */
+#articles .card-img-top{
+    position: relative;
+}
+
+#articles .design{
+    position: absolute;
+    background-color: white;
+    border-radius: 10px 10px 10px 0px;
+    padding: 10px;
+    bottom: 50px;
+    transform: translate(16px, -100px);
+}
+
+
+#articles .card .angle-right{
+    background-color:#F4F0EC;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+#articles .card .angle{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
