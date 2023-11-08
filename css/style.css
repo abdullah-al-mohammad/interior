@@ -23,9 +23,8 @@ body{
 
 
 #home .home-unique{
-    top: 0px;
-    bottom: 50px;
-    transform: translate(50%, 50%);
+    top: 150px;
+    left: 50px;
     font-family: 'DM Serif Display', serif;
 }
 
@@ -106,4 +105,13 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* footer */
+
+#company-details ul li{
+    list-style: none;
+}
+#company-details ul{
+    padding-left: 0;
 }
