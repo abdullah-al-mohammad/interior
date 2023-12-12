@@ -1,10 +1,13 @@
 @import "./utility/color";
-@forward "../node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css";
 
 body{
-    font-family: 'Jost', sans-serif;
+    font-family: 'DM Serif Display', serif;
 }
-// navbar
-.navbar-nav {
-    color: $primary2 !important;
+
+// home text
+#home-img{
+    .home-unique{
+        // transform: translate(30px 20px);
+        top: 150px;
+    }
 }
