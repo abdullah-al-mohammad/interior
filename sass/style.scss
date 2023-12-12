@@ -1,13 +1,14 @@
 @import "./utility/color";
 
 body{
-    font-family: 'DM Serif Display', serif;
+    
 }
 
 // home text
 #home-img{
     .home-unique{
-        // transform: translate(30px 20px);
         top: 150px;
+        left: 50px;
+        font-family: 'DM Serif Display', serif;
     }
 }
