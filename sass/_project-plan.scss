@@ -1,0 +1,20 @@
+// font style
+#project{
+    .card{
+        .card-body{
+            a{
+                font-size: 18px;
+                line-height: 23.5px;
+                i{
+                    color: $primary1;
+                }
+            }
+            p{
+                font-size: 22px;
+                line-height: 33px;
+                color: #4D5053;
+                ;
+            }
+        }
+    }
+}

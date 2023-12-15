@@ -1,3 +1,4 @@
+@import "./utility/color";
 #home{
    .home-img{
     background-image: url(../images/banner.png);
@@ -5,5 +6,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 208px 0 208px 52px;
+    border-radius: 30px;
+    h1{
+      margin-bottom: 18px;
+      line-height: 81.25px;
+      color: $primary2;
+    }
+    p{
+      margin-bottom: 21px;
+    }
+    button{
+      box-shadow: 0px 10px 20px 0px #C0C0C059;
+      border-radius: 18px;
+
+    }
    }
 }
