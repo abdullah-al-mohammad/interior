@@ -7805,4 +7805,43 @@ section {
   color: #CDA274;
 }
 
+#about-us .bg-color {
+  background: #F4F0EC;
+}
+#about-us .bg-color .card .card-body h5, #about-us .bg-color .card .card-body .h5 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  color: #292F36;
+}
+#about-us .bg-color .card .card-body h6, #about-us .bg-color .card .card-body .h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #4D5053;
+}
+#about-us .bg-color .card p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #4D5053;
+}
+
+#our-project p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #4D5053;
+}
+#our-project h5, #our-project .h5 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #292F36;
+}
+
+#count-down .bg-color {
+  background: #F4F0EC;
+}
+
 /*# sourceMappingURL=custom.css.map */
