@@ -7842,6 +7842,18 @@ section {
 
 #count-down .bg-color {
   background: #F4F0EC;
+  padding: 151px 130px;
+}
+#count-down .bg-color h1, #count-down .bg-color .h1 {
+  color: #CDA274;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 106px;
+}
+#count-down .bg-color p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
 }
 
 /*# sourceMappingURL=custom.css.map */

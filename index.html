@@ -270,21 +270,21 @@
       <section id="count-down">
         <div class="container">
           <div class="row row-cols-md-4 text-center bg-color">
-            <div class="border-end count-color">
-              <h1>12</h1>
-              <p>Years Of Experiance</p>
+            <div class="border-end count-12 ps-0">
+              <h1 class="mb-3 counter">12</h1>
+              <p class="text-capitalize">years of experiance</p>
             </div>
-            <div class="border-end count-color">
-              <h1>85</h1>
-              <p>Success Project</p>
+            <div class="border-end count">
+              <h1 class="mb-3 counter">85</h1>
+              <p class="text-capitalize">success project</p>
             </div>
-            <div class="border-end count-color">
-              <h1>15</h1>
-              <p>Active Project</p>
+            <div class="border-end count">
+              <h1 class="mb-3 counter">15</h1>
+              <p class="text-capitalize">active project</p>
             </div>
-            <div class="count-color">
-              <h1>95</h1>
-              <p>Happy CUstomers</p>
+            <div class="count-95 pe-0">
+              <h1 class="mb-3 counter">95</h1>
+              <p class="text-capitalize">happy customers</p>
             </div>
           </div>
         </div>
@@ -293,8 +293,8 @@
       <!-- Articles & News -->
       <section id="articles" class="container my-5">
         <div class="text-center mb-5">
-          <h1>Articles & News</h1>
-          <p>It is a long established fact that a reader will be distracted by the of readable content <br> of a page when lookings at its layouts the points of using.</p>
+          <h1 class="text-capitalize">articles & news</h1>
+          <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.</p>
         </div>
 
         <!--  -->
@@ -411,6 +411,20 @@
         <p class="mt-5 pt-5 mb-5 text-center">Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</p>
       </section>
     </footer>
+    <!-- counter up -->
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+   <script>
+    jQuery(document).ready(function($) {
+   $(".counter").counterUp({
+     delay: 10, /* The delay in milliseconds per number count up */
+     time: 3000, /*The total duration of the count up animation */
+     offset: 100, 
+     /*The viewport percentile from which the counter starts (by default it's 100, meaning it's triggered at the very moment the element enters the viewport) */
+      });
+    });
+  </script>
     <!-- bootstrap js -->
     <script src="./node_modules/bootstrap/js/index.esm.js"></script>
     <!-- font aowsome -->

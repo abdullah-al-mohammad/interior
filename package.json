@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "counterup2": "^2.0.2",
     "sass": "^1.69.5"
   }
 }
