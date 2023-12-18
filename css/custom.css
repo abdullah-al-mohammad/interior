@@ -7908,11 +7908,11 @@ section {
 }
 
 #home .home-img .home-unique {
+  background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 30px;
-  background-image: url(../images/banner.png);
   padding: 208px 0 208px 52px;
 }
 #home .home-img h1, #home .home-img .h1 {
