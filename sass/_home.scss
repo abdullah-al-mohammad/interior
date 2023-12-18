@@ -1,12 +1,12 @@
 @import "./utility/color";
 #home{
-   .home-img{
     background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 208px 0 208px 52px;
     border-radius: 30px;
+    padding: 208px 0 208px 52px;
+   .home-img{
     h1{
       margin-bottom: 18px;
       line-height: 81.25px;
