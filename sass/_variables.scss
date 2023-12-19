@@ -13,8 +13,8 @@ $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
+$gray-700: #4D5053 !default;
+$gray-800: #292F36 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 // scss-docs-end gray-color-variables
@@ -37,7 +37,6 @@ $grays: (
 
 // scss-docs-start color-variables
 $blue:    #292F36 !default;
-// $ab:    #96d44a !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -47,6 +46,7 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+$golden-beige:#CDA274 !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -64,7 +64,8 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "golden-beige": $golden-beige
 ) !default;
 // scss-docs-end colors-map
 
@@ -299,9 +300,8 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-// $primary:       $ab !default;
-$secondary:     $gray-600 !default;
+$primary:       $golden-beige !default;
+$secondary:     $gray-800 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -531,7 +531,8 @@ $gutters: (
   5: $spacer * 2.7,
   6: $spacer * 3,
   7: $spacer * 3.5,
-  8: $spacer * 6.5,
+  8: $spacer * 4.7,
+  9: $spacer * 6.5,
 );
 // Container padding
 
@@ -668,7 +669,7 @@ $headings-font-family:        'DM Serif Display', serif !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              inherit !default;
+$headings-color:              $gray-800 !default;
 // scss-docs-end headings-variables
 
 // scss-docs-start display-headings

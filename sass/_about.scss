@@ -1,26 +1,18 @@
-// @import "color";
+@import "./utility/text";
 
 #about-us{
-    .bg-color{
-        background: $bg-Isabelline;
-        .card{
-            .card-body{
-                h5{
-                    font-size: $heading3;
-                    font-weight: 400;
-                    color: $primary2;
-                }
-                h6{
-                    font-size: $heading6;
-                    font-weight: 400;
-                    color: #4D5053;
-                }
-            }
-            p{
-                font-size: $heading4;
-                font-weight: 400;
-                color: #4D5053;
-            }
+    p{
+        color: #4D5053;
+    }
+    .call{
+        span{
+            letter-spacing: 1px;
+            color: #4D5053;
+        }
+    }
+    button{
+        i{
+            color: #CDA274;
         }
     }
 }
