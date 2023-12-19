@@ -7907,7 +7907,7 @@ section {
   padding-bottom: 200px;
 }
 
-#home .home-img .home-unique {
+.banner {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
@@ -7915,39 +7915,34 @@ section {
   border-radius: 30px;
   padding: 208px 0 208px 52px;
 }
-#home .home-img h1, #home .home-img .h1 {
+.banner h1, .banner .h1 {
   margin-bottom: 18px;
-  line-height: 81.25px;
   color: #292F36;
 }
-#home .home-img p {
+.banner p {
   margin-bottom: 21px;
 }
-#home .home-img button i {
+.banner button i {
   color: #CDA274;
 }
 
 #project .card .card-body a {
   font-size: 18px;
-  line-height: 23.5px;
 }
 #project .card .card-body a i {
   color: #CDA274;
 }
 #project .card .card-body p {
   font-size: 22px;
-  line-height: 33px;
   color: #4D5053;
 }
 
 #living-style p {
   font-size: 22px;
-  line-height: 33px;
   color: #4D5053;
 }
 #living-style .call span {
   font-size: 24px;
-  line-height: 36px;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -7961,32 +7956,27 @@ section {
 #about-us .bg-color .card .card-body h5, #about-us .bg-color .card .card-body .h5 {
   font-size: 25px;
   font-weight: 400;
-  line-height: 37.5px;
   color: #292F36;
 }
 #about-us .bg-color .card .card-body h6, #about-us .bg-color .card .card-body .h6 {
   font-size: 18px;
   font-weight: 400;
-  line-height: 27px;
   color: #4D5053;
 }
 #about-us .bg-color .card p {
   font-size: 22px;
   font-weight: 400;
-  line-height: 33px;
   color: #4D5053;
 }
 
 #our-project p {
   font-size: 22px;
   font-weight: 400;
-  line-height: 33px;
   color: #4D5053;
 }
 #our-project h5, #our-project .h5 {
   font-size: 25px;
   font-weight: 400;
-  line-height: 31px;
   color: #292F36;
 }
 
@@ -7998,12 +7988,10 @@ section {
   color: #CDA274;
   font-size: 85px;
   font-weight: 400;
-  line-height: 106px;
 }
 #count-down .bg-color p {
   font-size: 22px;
   font-weight: 400;
-  line-height: 33px;
 }
 
 #articles .card {
@@ -8029,9 +8017,6 @@ section {
 }
 #contact .rounded-5 {
   border-radius: 70px !important;
-}
-#contact .rounded-5 .lh-lg {
-  line-height: 62px !important;
 }
 #contact .rounded-5 button {
   background-color: #CDA274;
