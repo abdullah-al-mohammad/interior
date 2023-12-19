@@ -7920,9 +7920,12 @@ section {
   color: #292F36;
 }
 .banner p {
-  margin-bottom: 21px;
+  color: #4D5053;
 }
-.banner button i {
+.banner a {
+  box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.3490196078);
+}
+.banner a i {
   color: #CDA274;
 }
 
