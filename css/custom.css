@@ -89,11 +89,11 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: #292F36;
-  --bs-link-color: #CDA274;
-  --bs-link-color-rgb: 205, 162, 116;
+  --bs-link-color: #292F36;
+  --bs-link-color-rgb: 41, 47, 54;
   --bs-link-decoration: none;
-  --bs-link-hover-color: #a4825d;
-  --bs-link-hover-color-rgb: 164, 130, 93;
+  --bs-link-hover-color: #21262b;
+  --bs-link-hover-color-rgb: 33, 38, 43;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -536,7 +536,7 @@
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 174, 138, 99;
+  --bs-btn-focus-shadow-rgb: 73, 78, 84;
   text-decoration: none;
 }
 .btn-link:focus-visible {
@@ -7966,15 +7966,6 @@ section {
   border-radius: 30px;
   padding: 208px 0 208px 52px;
 }
-.banner p {
-  color: #4D5053;
-}
-.banner a {
-  box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.3490196078);
-}
-.banner a i {
-  color: #CDA274;
-}
 
 #work .col-8 a i {
   color: #CDA274;
@@ -7983,15 +7974,8 @@ section {
   color: #4D5053;
 }
 
-#about-us p {
-  color: #4D5053;
-}
 #about-us .call span {
   letter-spacing: 1px;
-  color: #4D5053;
-}
-#about-us button i {
-  color: #CDA274;
 }
 
 #testimonial .bg-color {
