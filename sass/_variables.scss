@@ -46,7 +46,8 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
-$golden-beige:#CDA274 !default;
+$golden-beige: #CDA274 !default;
+$isabella: #F4F0EC !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -65,7 +66,8 @@ $colors: (
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800,
-  "golden-beige": $golden-beige
+  "golden-beige": $golden-beige,
+  "isabella": $isabella
 ) !default;
 // scss-docs-end colors-map
 
@@ -306,7 +308,7 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+$light:         $isabella !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
@@ -416,7 +418,13 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  5: $spacer * 2.5,
+  6: $spacer * 3,
+  7: $spacer * 3.5,
+  8: $spacer * 4,
+  9: $spacer * 4.5,
+  10: $spacer * 5,
+  11: $spacer * 5.5,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
