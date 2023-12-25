@@ -1,9 +1,8 @@
-@import "./utility/color";
-  .banner{
-      background-image: url(../images/banner.png);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 30px;
-      padding: 208px 0 208px 52px;
-   }
+.banner{
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  padding: 208px 0 208px 52px;
+}
