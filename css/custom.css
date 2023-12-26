@@ -1062,7 +1062,12 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h5, .h5 {
+    font-size: 1.5rem;
+  }
 }
 
 h6, .h6 {
@@ -1397,67 +1402,78 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: calc(1.655rem + 4.86vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-1 {
-    font-size: 5rem;
+    font-size: 5.3rem;
   }
 }
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-2 {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-3 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 }
 
 .display-4 {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-4 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
 
 .display-5 {
-  font-size: calc(1.425rem + 2.1vw);
+  font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-5 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.425rem + 2.1vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-6 {
+    font-size: 3rem;
+  }
+}
+
+.display-7 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-7 {
     font-size: 2.5rem;
   }
 }
@@ -1788,12 +1804,12 @@ progress {
 
 .g-4,
 .gx-4 {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1.25rem;
 }
 
 .g-4,
 .gy-4 {
-  --bs-gutter-y: 1.5rem;
+  --bs-gutter-y: 1.25rem;
 }
 
 .g-5,
@@ -2000,11 +2016,11 @@ progress {
   }
   .g-sm-4,
   .gx-sm-4 {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 1.25rem;
   }
   .g-sm-4,
   .gy-sm-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 1.25rem;
   }
   .g-sm-5,
   .gx-sm-5 {
@@ -2201,11 +2217,11 @@ progress {
   }
   .g-md-4,
   .gx-md-4 {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 1.25rem;
   }
   .g-md-4,
   .gy-md-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 1.25rem;
   }
   .g-md-5,
   .gx-md-5 {
@@ -2402,11 +2418,11 @@ progress {
   }
   .g-lg-4,
   .gx-lg-4 {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 1.25rem;
   }
   .g-lg-4,
   .gy-lg-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 1.25rem;
   }
   .g-lg-5,
   .gx-lg-5 {
@@ -2603,11 +2619,11 @@ progress {
   }
   .g-xl-4,
   .gx-xl-4 {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 1.25rem;
   }
   .g-xl-4,
   .gy-xl-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 1.25rem;
   }
   .g-xl-5,
   .gx-xl-5 {
@@ -2804,11 +2820,11 @@ progress {
   }
   .g-xxl-4,
   .gx-xxl-4 {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 1.25rem;
   }
   .g-xxl-4,
   .gy-xxl-4 {
-    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 1.25rem;
   }
   .g-xxl-5,
   .gx-xxl-5 {
@@ -4793,7 +4809,7 @@ progress {
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.275rem + 0.3vw) !important;
 }
 
 .fs-6 {
@@ -10001,6 +10017,9 @@ progress {
   .fs-4 {
     font-size: 1.375rem !important;
   }
+  .fs-5 {
+    font-size: 1.5rem !important;
+  }
 }
 @media print {
   .d-print-inline {
@@ -10046,7 +10065,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 section {
-  padding-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .banner {
@@ -10058,6 +10077,10 @@ section {
   padding: 208px 0 208px 52px;
 }
 
+.bg-light {
+  padding: 150px 0;
+}
+
 #articles .card {
   border: 1px solid #E7E7E7;
   box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.2509803922);
@@ -10065,15 +10088,9 @@ section {
 #articles .card .kitchen {
   background-color: white;
   bottom: 20px;
-  left: 25px;
+  left: 20px;
   padding: 10px;
   border-radius: 8px 8px 8px 0;
-}
-#articles .card .kitchen p {
-  color: #4D5053;
-}
-#articles .card .card-text {
-  color: #4D5053;
 }
 
 #contact .bg-dark {

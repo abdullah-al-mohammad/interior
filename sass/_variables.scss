@@ -535,7 +535,7 @@ $gutters: (
   1: $spacer * .25,
   2: $spacer * .5,
   3: $spacer,
-  4: $spacer * 1.5,
+  4: $spacer * 1.25,
   5: $spacer * 2.7,
   6: $spacer * 3,
   7: $spacer * 3.5,
@@ -656,7 +656,7 @@ $h1-font-size:                $font-size-base * 3.125 !default;
 $h2-font-size:                $font-size-base * 2.188 !default;
 $h3-font-size:                $font-size-base * 1.563 !default;
 $h4-font-size:                $font-size-base * 1.375 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
+$h5-font-size:                $font-size-base * 1.5 !default;
 $h6-font-size:                $font-size-base !default;
 // scss-docs-end font-variables
 
@@ -667,7 +667,7 @@ $font-sizes: (
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
+  6: $h6-font-size,
 ) !default;
 // scss-docs-end font-sizes
 
@@ -682,12 +682,13 @@ $headings-color:              $gray-800 !default;
 
 // scss-docs-start display-headings
 $display-font-sizes: (
-  1: 5rem,
-  2: 4.5rem,
-  3: 4rem,
-  4: 3.5rem,
-  5: 3rem,
-  6: 2.5rem,
+  1: 5.3rem,
+  2: 5rem,
+  3: 4.5rem,
+  4: 4rem,
+  5: 3.5rem,
+  6: 3rem,
+  7: 2.5rem,
 ) !default;
 
 $display-font-family: null !default;
