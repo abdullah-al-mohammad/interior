@@ -182,7 +182,7 @@
   --bs-btn-padding-x: 3.375rem;
   --bs-btn-padding-y: 1.625rem;
   --bs-btn-font-family: ;
-  --bs-btn-font-size: 1.125;
+  --bs-btn-font-size: 1.125rem;
   --bs-btn-font-weight: 600;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: var(--bs-body-color);
@@ -10081,6 +10081,16 @@ section {
   padding: 150px 0;
 }
 
+@media screen and (max-width: 767px) {
+  #counter .success {
+    border-right: none !important;
+  }
+}
+@media screen and (max-width: 567px) {
+  #counter .border-end {
+    border-right: none !important;
+  }
+}
 #articles .card {
   border: 1px solid #E7E7E7;
   box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.2509803922);
