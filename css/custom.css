@@ -10081,12 +10081,12 @@ section {
   padding: 150px 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   #counter .success {
     border-right: none !important;
   }
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
   #counter .border-end {
     border-right: none !important;
   }
