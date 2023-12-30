@@ -10,10 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <!-- css -->
     <link rel="stylesheet" href="./css/custom.css">
   </head>
-<body>  
+<body>
+  <a class="angelTop" href="#" type="button"><i class="fa-solid fa-angle-up"></i></a>
     <header>
       <nav class="navbar navbar-expand-lg pb-5 pt-4 mb-2">
         <div class="container">
@@ -45,12 +48,16 @@
                 <a class="nav-link disabled" aria-disabled="true">Contact</a>
               </li>
             </ul>
-            <form class="d-flex align-items-center" role="search">
-              <!-- <input class="form-control me-2 d-none" type="search" placeholder="Search" aria-label="Search"> -->
-              <a id="search" href="">
-                <img src="./images/Search.svg" alt="">
-              </a>
-            </form>
+            <!-- <div class="d-flex align-items-center" role="search">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./images/Search.svg" alt="">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end list-unstyled">
+                  <li><input class="dropdown-item" placeholder="search" type="search"></input></li>
+                </ul>
+              </div>
+            </div> -->
           </div>
         </div>
       </nav>
@@ -118,7 +125,7 @@
 
       <!-- testimonial -->
       <section class="container">
-        <div class="rounded-5 bg-light py-11 px-4">
+        <div class="rounded-5 bg-primary-subtle py-11 px-4">
           <h1 class="col-md-9 col-xl-7 col-xxl-6 text-center pb-3 mb-4 mx-auto">what the people thinks
             about us</h1>
           <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 justify-content-center gy-4 gy-xl-0 gx-4">
@@ -249,7 +256,7 @@
       </section>
 
       <!-- counter -->
-      <section id="counter" class="bg-light">
+      <section id="counter" class="bg-primary-subtle">
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-center">
             <div class="col border-end border-primary border-2">
@@ -299,7 +306,7 @@
             </div>
           </div>
           <div>
-            <div class="card p-4 rounded-5 bg-light">
+            <div class="card p-4 rounded-5 bg-primary-subtle">
               <div class="position-relative mb-3 pb-1">
                 <img src="./images/design2.png" class="rounded-top-5 w-100" alt="...">
                 <div class="kitchen position-absolute">
@@ -394,7 +401,8 @@
     </footer>
     <!-- bootstrap js -->
     <!-- <script src="./node_modules/bootstrap/js/index.esm.js"></script> -->
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <!-- jquery -->
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
