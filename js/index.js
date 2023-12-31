@@ -1,15 +1,11 @@
-// document.getElementById("search").addEventListener("click", function(){
-//     const inputContainer = document.getElementById("form");
-//     const inputField = document.createElement('input');
-//     console.log(inputField);
-//     inputField.innerHTML = `
-//     <input type="search" placeholder="Search" aria-label="Search">
-//     `;
-//     inputContainer.appendChild(inputField);
-// })
-const search = document.getElementById("search");
-const clickEvent = search.addEventListener("click", function(){
-    console.log('<input type="search" placeholder="Search" aria-label="Search">')
+document.getElementById("search").addEventListener("click", function(){
+    const inputContainer = document.getElementById("form");
+    const inputField = document.createElement('input');
+    console.log(inputField);
+    inputField.innerHTML = `
+    <input type="search" placeholder="Search" aria-label="Search">
+    `;
+    inputContainer.appendChild(inputField);
 })
 
 

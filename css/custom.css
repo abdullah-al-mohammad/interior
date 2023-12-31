@@ -10073,8 +10073,10 @@ body .angelTop i {
   transform: translate(-50%, -50%);
 }
 body .angelTop:hover {
-  background-color: rgb(137, 137, 228);
+  background-color: black;
+  color: white;
   transition: all ease-in-out 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body {
@@ -10088,6 +10090,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 section {
   margin-bottom: 200px;
 }
+section .our-brand img {
+  width: 100px;
+}
+@media screen and (max-width: 575px) {
+  section .btn-lg {
+    padding: 1rem 1rem;
+    font-size: 10px;
+  }
+}
 
 .banner {
   background-image: url(../images/banner.png);
@@ -10098,6 +10109,11 @@ section {
   padding: 208px 0 208px 52px;
 }
 
+@media screen and (max-width: 575px) {
+  .banner {
+    padding: 208px 40px 208px 40px;
+  }
+}
 .bg-primary-subtle {
   padding: 150px 0;
 }

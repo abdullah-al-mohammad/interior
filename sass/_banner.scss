@@ -6,3 +6,9 @@
   border-radius: 30px;
   padding: 208px 0 208px 52px;
 }
+
+@media screen and (max-width: 575px) {
+  .banner{
+    padding: 208px 40px 208px 40px;
+  }
+}
