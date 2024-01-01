@@ -10056,6 +10056,9 @@ progress {
     display: none !important;
   }
 }
+body {
+  font-size: 22px;
+}
 body .angelTop {
   position: fixed;
   right: 50px;
@@ -10077,10 +10080,6 @@ body .angelTop:hover {
   color: white;
   transition: all ease-in-out 0.3s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-body {
-  font-size: 22px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

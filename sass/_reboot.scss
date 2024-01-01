@@ -1,5 +1,28 @@
 body{
     font-size: 22px;
+    .angelTop{
+        position: fixed;
+        // left: 0;
+        right: 50px;
+        top: 80%;
+        height: 50px;
+        width: 50px;
+        background-color: #F4F0EC;
+        border-radius: 50%;
+        transition: all ease-in-out .3s;
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .angelTop:hover{
+        background-color: black;
+        color: white;
+        transition: all ease-in-out .3s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 %heading{
     text-transform: capitalize;
